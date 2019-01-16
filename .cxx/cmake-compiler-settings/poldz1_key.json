@@ -1,0 +1,17 @@
+{
+  "gradlePluginVersion": "3.5.0-alpha01",
+  "ndkInstallationFolder": {
+    "path": "/Users/oleg/Library/Android/sdk/ndk-bundle"
+  },
+  "ndkSourceProperties": {
+    "map": {
+      "Pkg.Desc": "Android NDK",
+      "Pkg.Revision": "18.1.5063045"
+    }
+  },
+  "args": [
+    "-DANDROID_ABI\u003dx86",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11"
+  ]
+}
